@@ -3,7 +3,6 @@ pipeline {
     docker {
       image 'maven'
     }
-    
   }
   stages {
     stage('Build') {
